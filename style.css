@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'ariel', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    margin: top !important;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(73, 198, 202);
+}
+
+.container{
+    width: 680px;
+    background: white;
+    padding: 30px;
+}
+
+.wrapper{
+    border: 1px solid #bbb;
+}
+
+.wrapper .text-input{ 
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.text-input .to-text{
+    border-left: 1px solid #bbb;
+}
+
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    /* outline: none; */
+    background: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+    resize: none;
+}
+
+.controls, li, .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+    
+}
+
+.controls .row.from .icons{
+    border-right: 1px solid #bbb;
+    padding-right: 15px;
+}
+.controls .row.to .icons{
+    border-left: 1px solid #bbb;
+    padding-left: 15px;
+}
+
+.controls .icons{
+    width: 38%;
+}
+
+.controls .icons i{
+    color: #9f9f9f ;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+    justify-content: center;
+}
+
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: none;
+
+}
+ 
+
+.controls .exchange{
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: rgb(73, 198, 202);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+.container button:hover{
+    background: rgb(158, 242, 245);
+    color: #757979;
+}
+
